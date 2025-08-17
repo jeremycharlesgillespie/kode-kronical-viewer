@@ -1,6 +1,6 @@
 # kode-kronical-viewer
 
-A comprehensive Django web dashboard for visualizing and analyzing performance data collected by the [kode-kronical](https://pypi.org/project/kode-kronical-jg/) library.
+A comprehensive Django web dashboard for visualizing and analyzing performance data collected by the [kode-kronical](https://pypi.org/project/kode-kronical/) library.
 
 ## Features
 
@@ -171,7 +171,7 @@ Visit http://localhost:8000 to view the performance dashboard.
 
 ## Integration with KodeKronical Core Library
 
-This dashboard works with data collected by the [kode-kronical](https://pypi.org/project/kode-kronical-jg/) core library:
+This dashboard works with data collected by the [kode-kronical](https://pypi.org/project/kode-kronical/) core library:
 
 ```python
 from kode_kronical import KodeKronical
@@ -299,7 +299,7 @@ docker run -p 8000:8000 \
 
 ## Related Projects
 
-- **[kode-kronical](https://pypi.org/project/kode-kronical-jg/)** - Core performance tracking library
+- **[kode-kronical](https://pypi.org/project/kode-kronical/)** - Core performance tracking library
 - **[kode-kronical GitHub](https://github.com/jeremycharlesgillespie/kode-kronical)** - Core library source code
 
 ## License

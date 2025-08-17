@@ -1,7 +1,7 @@
 # Django web dashboard for kode-kronical performance data visualization
 
 # Core performance library
-kode-kronical-jg>=0.1.0  # Our core library from PyPI
+kode-kronical>=0.1.0  # Our core library from PyPI
 boto3
 # Django web framework dependencies
 Django>=4.2.0
