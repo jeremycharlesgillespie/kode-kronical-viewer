@@ -1,0 +1,13 @@
+# Django web dashboard for kode-kronical performance data visualization
+
+# Core performance library
+kode-kronical-jg>=0.1.0  # Our core library from PyPI
+boto3
+# Django web framework dependencies
+Django>=4.2.0
+djangorestframework>=3.14.0
+channels>=4.0.0
+channels-redis>=4.1.0
+
+# Development dependencies (optional)
+# Install with: pip install -r requirements-dev.txt
