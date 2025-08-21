@@ -28,7 +28,7 @@ The system monitoring features provide real-time insights into your infrastructu
 - **Time Formatting**: Consistent HH:mm:ss CDT format with 45-degree rotation
 
 ### Data Architecture
-- **Optimized Storage**: kode-kronical-system-v2 table with hour-based partitioning
+- **Optimized Storage**: kode-kronical-system table with hour-based partitioning
 - **Automatic TTL**: 30-day data retention with DynamoDB TTL
 - **Frontend-ready Format**: Pre-processed data requiring minimal computation
 - **Efficient Queries**: Hour-based partition keys for fast retrieval
@@ -177,9 +177,9 @@ This dashboard works with data collected by the [kode-kronical](https://pypi.org
 from kode_kronical import KodeKronical
 
 # Initialize performance tracking
-perf = KodeKronical()
+kode = KodeKronical()
 
-@perf.time_it
+@kode.time_it
 def my_function():
     # Your application code
     pass

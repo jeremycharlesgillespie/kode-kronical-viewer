@@ -47,7 +47,7 @@ kode-kronical-viewer is a Django web dashboard for visualizing performance data 
 - **Legacy service**: `system_services.py` - handles old compressed data format
 - **Optimized service**: `optimized_system_service.py` - handles new v2 table format
 - **Automatic fallback**: Django tries optimized first, falls back to legacy
-- **Table detection**: Uses `kode-kronical-system-v2` for optimized, `kode-kronical-system` for legacy
+- **Table detection**: Uses `kode-kronical-system` for optimized, `kode-kronical-system` for legacy
 
 ### Common Issues and Solutions
 
