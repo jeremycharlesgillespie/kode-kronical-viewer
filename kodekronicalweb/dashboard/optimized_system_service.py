@@ -22,12 +22,12 @@ logger = logging.getLogger(__name__)
 
 
 class OptimizedSystemService:
-    """Service for reading from the optimized kode-kronical-system-v2 table."""
+    """Service for reading from the optimized kode-kronical-system table."""
     
     def __init__(self):
         self.dynamodb = boto3.client('dynamodb', region_name=settings.AWS_DEFAULT_REGION)
-        self.table_resource = boto3.resource('dynamodb', region_name=settings.AWS_DEFAULT_REGION).Table('kode-kronical-system-v2')
-        self.table_name = 'kode-kronical-system-v2'
+        self.table_resource = boto3.resource('dynamodb', region_name=settings.AWS_DEFAULT_REGION).Table('kode-kronical-system')
+        self.table_name = 'kode-kronical-system'
     
     def get_system_metrics_for_hostname(self, hostname: str, hours: int = 24) -> Dict[str, Any]:
         """Get system metrics for a hostname using optimized storage."""
